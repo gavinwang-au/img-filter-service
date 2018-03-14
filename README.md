@@ -37,11 +37,11 @@ If we send invalid JSON, You'll need to return a JSON response with HTTP status 
 ## Key Decisions
 1. why choose express.js.
 
-...Express.js is the most popular http server framework,  nearly a standard for Node.js web applications.
+***Express.js is the most popular http server framework,  nearly a standard for Node.js web applications.
 
 2. why choose express-request-parameters?
 
-...[express-request-parameters](https://github.com/Jokero/express-request-parameters) is a express.js middleware for processing request data.
+***[express-request-parameters](https://github.com/Jokero/express-request-parameters) is a express.js middleware for processing request data.
 
 ...[express-request-parameters](https://github.com/Jokero/express-request-parameters) process flat and nested json objects using filters, default values and validators.
 
