@@ -8,7 +8,9 @@ The fitlering and validation processing  is performed by:
 The transforming  processing  is performed by:
 [json-transforms](https://github.com/ColinEberhardt/json-transforms) module.
 
-## Test
+## The endpoint on Heroku
+https://gavinfilterservice.herokuapp.com
 
+## Test
 Try [test case](https://www.getpostman.com/collections/2591454a5eb9f0758f1d) on Postman.
 
