@@ -37,25 +37,27 @@ If we send invalid JSON, You'll need to return a JSON response with HTTP status 
 ## Key Decisions
 1. why choose express.js.
 
-Express.js is the most popular http server framework,  nearly a standard for Node.js web applications.
+...Express.js is the most popular http server framework,  nearly a standard for Node.js web applications.
 
 2. why choose express-request-parameters?
 
-[express-request-parameters](https://github.com/Jokero/express-request-parameters) is a express.js middleware for processing request data.
+...[express-request-parameters](https://github.com/Jokero/express-request-parameters) is a express.js middleware for processing request data.
 
-[express-request-parameters](https://github.com/Jokero/express-request-parameters) process flat and nested json objects using filters, default values and validators.
+...[express-request-parameters](https://github.com/Jokero/express-request-parameters) process flat and nested json objects using filters, default values and validators.
 
-The filter and validation rules can be defined declaratively on a single javascript file which is easy to use.
+...The filter and validation rules can be defined declaratively on a single javascript file which is easy to use.
 
 2. why choose json-transforms?
 
-[json-transforms](https://github.com/ColinEberhardt/json-transforms) provides a recursive, pattern-matching approach to transforming JSON data.
+...[json-transforms](https://github.com/ColinEberhardt/json-transforms) provides a recursive, pattern-matching approach to transforming JSON data.
 
-Transformations are defined as a set of rules which match the structure of a JSON object. The rule is based on jspath which is easy to define.
+...Transformations are defined as a set of rules which match the structure of a JSON object.
+
+...The rule is based on jspath which is easy to define.
 
 4. why choose Heroku?
 
-Really easy to deploy and free hours.
+...Really easy to deploy and free hours.
 
 ## Test
 Try [test case](https://www.getpostman.com/collections/2591454a5eb9f0758f1d) on Postman.
