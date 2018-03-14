@@ -66,9 +66,8 @@ npm install
 npm test
 ```
 #### Run the integration test for the endpoint on Heroku https://gavinfilterservice.herokuapp.com
-```sh
 Run [test case](https://www.getpostman.com/collections/2591454a5eb9f0758f1d) on Postman.
-```
+
 
 
 
